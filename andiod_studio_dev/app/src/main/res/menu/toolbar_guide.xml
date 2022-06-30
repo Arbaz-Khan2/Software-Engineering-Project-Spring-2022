@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/guideOffers"
+        android:title="Offers"
+        />
+    <item android:id="@+id/guideHotels"
+        android:title="Hotels"
+        />
+    <item android:id="@+id/guidePlaces"
+        android:title="Places"
+        />
+    <item android:id="@+id/guideMessages"
+        android:title="Messages"
+        />
+    <item android:id="@+id/Logout"
+        android:title="Logout"
+        />
+</menu>

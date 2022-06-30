@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Hotels in Shangrila"
+                android:textSize="45dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageSlider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="100dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Shangrila Resort Hotel Skardu is located around a serene heart shaped lake. Our cottages are dotted along the lakeside giving every room an awe inspiring view.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://shangrilaresorts.com.pk/"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Boasting a garden, Hotel Mashabrum is set in Skardu. Featuring a 24-hour front desk, this property also welcomes guests with a restaurant and a terrace. Every room includes a balcony.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider2" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d4427303-Reviews-Hotel_Mashabrum-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Tibet motel is located at Shangrilla lake Skardu which is 30min drive from Skardu city and 20min drive from airport. We warmly welcome our esteem guests.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d21378103-Reviews-Tibet_Motel_Shangrila-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="A very lavish hotel at Kachura Skardu with all 3-star amenities, a Mountain view, and 5 minutes walk from Kachura Lake, Byarsa Hotel Skardu is among one of the finest hotels in Skardu. Book your hotel and enjoy your holidays in Skardu Valley.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider4" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d23555099-Reviews-Byarsa_Hotel-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <Button
+                android:id="@+id/traveller_messages_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Messages"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toStartOf="@+id/book_guides_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/book_guides_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Guides"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_hotels_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Places"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/book_guides_button"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

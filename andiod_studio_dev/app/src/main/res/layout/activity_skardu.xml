@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Hotels in Skardu"
+                android:textSize="45dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageSlider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="100dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Hotel skardu lodge offers air-conditioned rooms with free WiFi. Featuring family rooms, this property also provides guests with a terrace. The accommodation provides a 24-hour front desk, room service and currency exchange for guests.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d14990555-Reviews-Hotel_Mountain_Lodge_Holiday_Home-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Indus View Hotel and Hostel offers a garden. Boasting room service, this property also provides guests with a restaurant. The hotel has family rooms. Rooms come complete with a private bathroom fitted with a shower and slippers, while some rooms at the hotel also boast a seating area. At Indus View Hotel and Hostel rooms come with bed linen and towels.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider2" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d21503890-Reviews-Indus_View_Hotel_Hostel-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Located in Skardu, Hotel Reego features a garden and a terrace. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi throughout the property. The accommodation provides evening entertainment and a shared lounge. You can play table tennis at Hotel Reego, and bike hire and car hire are available.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d15141922-Reviews-Hotel_Reego-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Hispar Hotel Skardu offers a shared lounge and terrace. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi. The hotel has family rooms. Shigar is 20 km from the accommodation.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider4" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g317119-d23532098-Reviews-Hispar_Hotel_Skardu-Skardu_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <Button
+                android:id="@+id/traveller_messages_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Messages"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toStartOf="@+id/book_guides_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/book_guides_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Guides"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_hotels_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Places"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/book_guides_button"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

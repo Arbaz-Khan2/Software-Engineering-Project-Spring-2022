@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    tools:context=".MainActivity">
+
+
+    <!--        app:layout_constraintTop_toBottomOf="@+id/include" />-->
+
+    <TextView
+        android:id="@+id/guideHeading"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="58dp"
+        android:gravity="center"
+        android:text="Guide"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gigDesc"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:text="Gig Description:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/gigDesc"
+        app:layout_constraintStart_toStartOf="@+id/gigDesc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/gigDesc"
+        android:layout_width="275dp"
+        android:layout_height="250dp"
+        android:hint="Briefly explain what places you can show your clients, what services you can provide and what is your previous experience"
+        android:inputType="textMultiLine"
+        android:lines="100"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbarStyle="insideInset"
+        android:gravity="top|left"
+        app:layout_constraintBottom_toTopOf="@+id/nextFromGigDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <Button
+        android:id="@+id/nextFromGigDesc"
+        android.paddin="10dp"
+        android:layout_width="258dp"
+        android:layout_height="80dp"
+        android:background="@drawable/standerd_button"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:backgroundTint="#78E9F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87"
+        tools:ignore="MissingPrefix" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

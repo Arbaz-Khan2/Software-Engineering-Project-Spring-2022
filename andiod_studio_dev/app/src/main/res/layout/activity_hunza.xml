@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Hotels in Hunza"
+                android:textSize="45dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageSlider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="100dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/book_guides_button">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Hill Top Hotel built in 1980s, is the oldest and a luxurious hotel situated in the heart of Karimabad Hunza offering luxury for jaded urbanities, international adventure and culture loving tourists. Hill Top Hotel offers a discreet retreat in the heart of Himalayas for discerning grown-ups, who want a bit of old-fashioned style without stuffiness in the presence of modern amenities.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://hilltophunza.com/"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider2"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Hikal Guest House in Hunza provides accommodation with a shared lounge, a garden and a terrace. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi. Free private parking is available and the hotel also provides car hire for guests who want to explore the surrounding area.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider2" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.sniffhotels.com/pk/hotel/hikal-guest-house"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Featuring free WiFi, Baltit Heritage Inn is situated in Hunza. Boasting room service, this property also welcomes guests with a restaurant and a terrace. The accommodation features a shuttle service, while a bicycle rental service is also available.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://www.tripadvisor.com/Hotel_Review-g7349278-d15008087-Reviews-Baltit_Heritage_Inn-Karimabad_Gilgit_Baltistan.html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="28dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="2500"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="10dp"
+                android:text="Featuring a garden, Horizon Resort Attabad Lake is situated in Hunza. Boasting a 24-hour front desk, this property also has a restaurant and a terrace.
+\nFor further information, Please click on the following link. It will redirect you to the booking site: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider4" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="https://horizonhunza.com/"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <Button
+                android:id="@+id/traveller_messages_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Messages"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toStartOf="@+id/book_guides_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/book_guides_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Guides"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_hotels_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Places"
+                android:background="@drawable/standerd_button"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/book_guides_button"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

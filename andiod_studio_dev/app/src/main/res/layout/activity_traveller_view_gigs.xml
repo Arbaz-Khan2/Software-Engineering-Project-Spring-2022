@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity">
+
+
+            <!--            <com.denzcoskun.imageslider.ImageSlider-->
+            <!--                android:id="@+id/imageSlider"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="210dp"-->
+            <!--                app:iss_auto_cycle="true"-->
+
+            <!--                app:iss_delay="0"-->
+            <!--                app:iss_period="2500"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/btnChitral">-->
+
+            <!--            </com.denzcoskun.imageslider.ImageSlider>-->
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="567dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Explore the gigs below"
+                android:textSize="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.416"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/traveller_messages_button" />
+
+            <Button
+                android:id="@+id/traveller_messages_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:text="Messages"
+                app:layout_constraintEnd_toStartOf="@+id/view_places_gig_page"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_places_gig_page"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/standerd_button"
+                android:text="View Places"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_hotels_button_gig_page"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="38dp"
+                android:background="@drawable/standerd_button"
+                android:text="View Hotels"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view_places_gig_page"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/username_guide_gigs"
+                android:layout_width="89dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="292dp"
+                android:layout_marginBottom="513dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/gig_title_gigs"
+                android:layout_width="341dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="422dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username_guide_gigs"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/view_offer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="271dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="401dp"
+                android:background="@drawable/standerd_button"
+                android:text="View Offer"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gig_title_gigs"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

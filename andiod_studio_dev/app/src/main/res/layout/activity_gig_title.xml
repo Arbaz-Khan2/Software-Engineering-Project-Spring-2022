@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    tools:context=".MainActivity">
+
+
+    <!--        app:layout_constraintTop_toBottomOf="@+id/include" />-->
+
+    <TextView
+        android:id="@+id/guideHeading"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="74dp"
+        android:gravity="center"
+        android:text="Guide"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gigTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:text="Gig Title:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/gigTitle"
+        app:layout_constraintStart_toStartOf="@+id/gigTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/gigTitle"
+        android:layout_width="275dp"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:layout_height="110dp"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbarStyle="insideInset"
+        android:gravity="top|left"
+        app:layout_constraintBottom_toTopOf="@+id/nextFromGigTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:text="Pricing:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/pricing"
+
+        app:layout_constraintStart_toStartOf="@+id/pricing"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textPKR"-->
+<!--        android:layout_width="45dp"-->
+<!--        android:layout_height="26dp"-->
+<!--        android:layout_marginTop="396dp"-->
+<!--        android:text="PKR"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/pricing"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <EditText
+        android:id="@+id/pricing"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:text="PKR "
+        app:layout_constraintBottom_toTopOf="@+id/nextFromGigTitle"
+        app:layout_constraintStart_toStartOf="@+id/gigTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/textPerDay"
+        android:layout_width="90dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="13dp"
+        android:text=" /Day"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/pricing"
+        app:layout_constraintTop_toTopOf="@+id/pricing" />
+
+    <Button
+        android:id="@+id/nextFromGigTitle"
+        android.paddin="10dp"
+        android:layout_width="258dp"
+        android:layout_height="80dp"
+        android:background="@drawable/standerd_button"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:backgroundTint="#78E9F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755"
+        tools:ignore="MissingPrefix" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

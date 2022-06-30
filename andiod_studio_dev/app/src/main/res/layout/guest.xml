@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity"
+            >
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:background="@drawable/standerd_button"
+                android:text="Phander"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.082" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Phander, is situated about 184 Kilometers from Gilgit on the road to the
+Shandur Pass, which continues to Chitral.It is famous for its Long Beautifull ranges of green land and Lake. The famous Lake of khalti is one of the reason tourist choose Phander as a destination. On average, 10000 people visit Phander.
+Your window of opportunity for visiting Phander is limited to April – October. Hotels will not
+be open outside of that window of time. \nHotels:\nLake View Guesthouse and
+Restaurant\nLake Inn Phander\nDream Island Hotel Phander\nPTDC Motel Phander\nNote: For more information and booking a guide, SignUp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.046" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="409dp"
+                android:layout_height="312dp"
+                android:padding="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.0"
+
+                app:srcCompat="@drawable/phander" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Naltar"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintVertical_bias="0.003" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/naltar"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Naltar Is Most Adventourous place. The Naltar Valley
+is a valley situated about 34 kilometres
+from the city of Gilgit in Gilgit−Baltistan, Pakistan.
+It is a forested region known for its
+dramatic mountain scenery and for the three lakes-Strangi Lake, Blue Lake and Bodlok Lake.
+Ski competitions are held at Naltar ski resort"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Fairy Meadows"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.017" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/fairymeadows"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Fairy Meadows is approachable by a
+fifteen kilometer-long jeepable trek starting from Raikot
+Bridge on Karakoram Highway to the village Tattu.
+The dangerous and narrow gravel mountain road from the
+bridge to the village is only open to locals, who provide
+transportation to visitors. In 2013, the World Health
+Organization declared it the second-deadliest road on
+the planet. From Tato onward, it takes about three to
+four hours hiking by a five kilometer trek to Fairy
+Meadows. The grassland is located in the Rakhiot valley,
+at one end of the Rakhiot glacier which originates from
+the Nanga Parbat and feeds a stream that finally falls
+in the River Indus. Since 1992, locals have operated
+camping sites in the area."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Hunza Valley"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/hunza"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="The Hunza Valley is a mountainous valley
+in the northern part of the Gilgit-Baltistan
+region of Pakistan, formed by the Hunza River.
+Hunza is one of the most exotic places in Pakistan.
+Several high peaks rise above 7,000 m in the surroundings
+of Hunza Valley. The valley provides views of several
+mountains, including: Rakaposhi 7,788 m "
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Karimabad"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/karimabad"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="There are many restaurants in
+Karimabad Bazar as well as many handicrafts shops
+where you can buy local food and things..."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Baltit Fort"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/baltit"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Baltit Fort is a fort in the Hunza
+valley, near the town of Karimabad, in the Gilgit-Baltistan
+region of northern Pakistan. Founded in the 8th century CE,
+it has been on the UNESCO World Heritage Tentative list
+since 2004."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Altit Fort"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/altit"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Altit Fort is an ancient fort at Altit
+town in the Hunza valley in Gilgit Baltistan, Pakistan.
+It was originally home to the hereditary rulers of the
+Hunza state who carried the title Mir, although they
+moved to the somewhat younger Baltit fort nearby three
+centuries later. Altit Fort and in particular the Shikari
+tower is around 1100 years old,
+which makes it the oldest monument in the Gilgit–Baltistan.
+The fort has received the UNESCO Asia Pacific Heritage
+Award for Cultural Heritage Conservation in 2011."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Khunjerab Park"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/khunjerabpark"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Khunjerab National Park is
+Pakistan's third largest national park. The primary purpose
+of this park was to provide protection to the endangered
+Marco Polo sheep, which is only found in this area in
+Pakistan. The park is also famous for its snow leopards.
+Some reports say that it might contain the highest density
+of these beautiful cats in the total Himalayan ecosystem,
+which is the natural habitat of these cats. Over 2,000
+Siberian ibex, widely distributed and abundant in the park
+but absent from neighbouring China, are also present here."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Karakoram Highway"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/karakoram"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="The Karakoram Highway known by its
+initials KKH, also known as National Highway 35 or the
+China-Pakistan Friendship Highway is a
+1,300 km national highway which extends from Hasan Abdal in
+the Punjab province of Pakistan to the Khunjerab Pass in
+Gilgit-Baltistan, where it crosses into China and
+becomes China National Highway. Due to its high elevation
+and the difficult conditions under which it was
+constructed, it is often referred to as the Eighth
+Wonder of the World."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Juglot"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/junction"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Juglot is a town located in the Gilgit
+District of Gilgit−Baltistan, Pakistan. It is situated 45
+kilometres southeast of the capital city of Gilgit on the
+Karakoram Highway. The town is situated at the junction of
+three major mountain ranges: the Karakoram, the Hindu Kush
+and the Himalayas. Juglot is also the junction where the
+roads to Gilgit and Skardu split into different
+directions: the road to Skardu branches off by about six
+kilometres towards Gilgit."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="NangaParbat Viewpoint"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/nangaparbat"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Nanga Parbat Mountain is clearly visible
+in front of Karakoram Highway and gives a mighty view of the
+Nanga Parbat. A trek leads toward Mt. Nanga Parbat from
+Raikot Bridge at KKH."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Rakaposhi Viewpoint"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/rakaposhi"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Rakaposhi View Point to have breakfast on
+your way out from Hunza. It's about an hours drive from Hunza.
+ You can see the Rakaposhi peak mountain, a 7788 meter-high
+ peak, which is the 27th highest mountain on Earth but
+ considered one of the most beautiful ones. The view from
+ here is stunning.
+ The cold water splasing from the melted glacier of the
+ Rakaposhi Mountain falls into the Gilgit river. A number of
+ shops are on both sides."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Khunjerab Pass"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/khunjerab"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="The Khunjerab Pass is the highest-paved
+international border crossing in the world and the highest
+point on the Karakoram Highway. The long, relatively flat
+pass is often snow-covered during the winter season and as
+a consequence is generally closed for heavy vehicles from
+November 30 to May 1 and for all vehicles from December 30
+to April 1.The reconstructed Karakoram Highway passes
+through Khunjerab Pass."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Attabad Lake"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/attabad"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="The lake was formed when Attabad village
+in Hunza Valley in Gilgit−Baltistan had a landslide, 14
+kilometres upstream (east) of Karimabad that occurred on 4
+January 2010. The lake has become one of the biggest tourist
+attractions in Gilgit−Baltistan, offering activities like
+boating, jet-skiing, fishing and other recreational
+activities."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView15"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Chilas"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/chilas"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Chilas comes under Gilgit-Baltistan. The
+weather is hot and dry in the summer and dry and cold in
+the winter. It can be reached through the Karakoram highway
+and also from the Kaghan valley passing over the Babusar
+Pass. Chilas is situated on the left bank of the mighty
+Indus River. The beautiful fairy meadows and Nanga Parbat,
+the seventh highest peak in the world, is also located in
+Chilas"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16"
+                app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Ghanche"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView31"
+                app:layout_constraintVertical_bias="0.017" />
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="631dp"
+                android:layout_height="254dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView32"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ghanche"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:text="Historic city of Khaplu, the Ghanche District
+is famous as a tourist destination for its outstanding
+scenery and high altitude landscapes. The headquarters of
+the Ghanche District is the town of Khaplu. The Ghanche
+District is the coldest place within Pakistan and its
+administered territories and is referred to as the third-pole
+, with temperatures reaching below -20 °C in the winter."
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE5EA"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AFE5EA"
+            tools:context=".MainActivity">
+
+
+            <!--            <com.denzcoskun.imageslider.ImageSlider-->
+            <!--                android:id="@+id/imageSlider"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="210dp"-->
+            <!--                app:iss_auto_cycle="true"-->
+
+            <!--                app:iss_delay="0"-->
+            <!--                app:iss_period="2500"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/btnChitral">-->
+
+            <!--            </com.denzcoskun.imageslider.ImageSlider>-->
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="To find Hotels click on a city"
+                android:textSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_gigs_guide" />
+
+            <Button
+                android:id="@+id/btnChitral"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Chitral"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <Button
+                android:id="@+id/btnGilgit"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Gilgit"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnChitral" />
+            <Button
+                android:id="@+id/btnHunza"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Hunza"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnGilgit" />
+            <Button
+                android:id="@+id/btnSkardu"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Skardu"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnHunza" />
+            <Button
+                android:id="@+id/btnKhaplu"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Khaplu"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSkardu" />
+            <Button
+                android:id="@+id/btnShangrila"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Shangrila"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnKhaplu" />
+            <Button
+                android:id="@+id/btnBaltit"
+                android:layout_width="250dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Baltit"
+                android:textColor="#0D214B"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnShangrila"/>
+
+
+            <Button
+                android:id="@+id/traveller_messages_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="34dp"
+                android:background="@drawable/standerd_button"
+                android:gravity="center"
+                android:text="Messages"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toStartOf="@+id/view_gigs_guide"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_gigs_guide"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/standerd_button"
+                android:text="Book Guides"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view_places_guide"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/standerd_button"
+                android:text="View Places"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toEndOf="@+id/view_gigs_guide"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

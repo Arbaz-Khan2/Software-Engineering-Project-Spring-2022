@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gbtrivia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".firstpage.login.guide_view_hotels"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.profile_guide"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.traveller_view_offer"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.traveller_view_gigs"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.profile"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.traveller_view_hotels"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.traveller_view_places"
+            android:exported="true" /> <!-- android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"> -->
+        <!-- android:theme="@style/Theme.AppCompat.Light.NoActionBar"> -->
+        <!-- <activity -->
+        <!-- android:name=".GuideSignUp" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".firstpage.login.ChitralScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.GilgitScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.HunzaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.SkarduScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.ShangrilaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.KhapluScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.BaltitScreen"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.signupfirstpage.SignupTraveller"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.signupfirstpage.SignupGuide"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.login.Login"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".firstpage.login.login" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".guestview"
+            android:exported="false" />
+        <activity
+            android:name=".signupfirstpage"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.signupfirstpage.GigTitle"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.signupfirstpage.GigDesc"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.signupfirstpage.OtpView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
